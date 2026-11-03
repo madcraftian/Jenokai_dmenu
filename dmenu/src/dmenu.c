@@ -51,14 +51,14 @@ static int centered = 1;                    /* -c option; centers dmenu on scree
 static int min_width = 500;                    /* minimum width when centered */
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-	"Agave Nerd Font Mono:style=bold:size=13"
+	"PxPlus IBM VGA 8x16:style=bold:size=12"
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
-	[SchemeNorm] = { "#f8f8f2", "#101510" },
-	[SchemeSel] = { "#101510", "#d2d2b5" },
-	[SchemeOut] = { "#101510", "#f8f8f2" },
+	[SchemeNorm] = { "#c8c8c3", "#0A0F0A" },
+	[SchemeSel] = { "#0A0F0A", "#d2d2b5" },
+	[SchemeOut] = { "#0A0F0A", "#c8c8c3" },
 };
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
 static unsigned int lines      = 20;
